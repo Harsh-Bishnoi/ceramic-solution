@@ -1,12 +1,14 @@
 :root {
     /***** font-family *****/
     --font-family-primary: "Plus Jakarta Sans", sans-serif;
+    --font-family-second:"Manrope", sans-serif;
     /***** color *****/
     --color-black: black;
     --color-white: white;
     --color-red: #FF0000;
     --bg-red: #FF0000;
-    /***** font-size *****/
+    --sooty-black: #141414;
+        /***** font-size *****/
     --fs-sm: 12px;
     --fs-base: 14px;
     --fs-md: 18px;
@@ -17,6 +19,10 @@
 /***** font-family *****/
 .font-family-primary {
     font-family: var(--font-family-primary);
+}
+
+.font-family-second {
+    font-family: var(--font-family-second);
 }
 
 /***** color *****/
@@ -34,6 +40,10 @@
 
 .bg-red {
     background: var(--bg-red);
+}
+
+.sooty-black {
+    color: var(--sooty-black);
 }
 
 /***** font-size *****/

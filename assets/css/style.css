@@ -1,5 +1,6 @@
 @import url(./root.css);
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 .max-w-1140 {
     max-width: 1164px !important;
@@ -137,10 +138,6 @@
     line-height: 80.64px;
 }
 
-
-
-
-
 /* header */
 .bg-img {
     background-image: url(../images/png/header-bg-img.png);
@@ -173,6 +170,21 @@
     margin-bottom: 72px;
 }
 
+.box-common-class {
+    width: 229.1px;
+    background-color: var(--color-white);
+    border-radius: 16px;
+    border: 0.83px solid #14141426;
+}
+
+.box {
+    padding: 8.33px 43.5px 6px 16px;
+}
+
+.box-2 {
+    padding: 8.33px 38.5px 6px 8px;
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
@@ -193,7 +205,7 @@
         right: 0 !important;
     }
 
-    .lh-80{
+    .lh-80 {
         line-height: normal;
     }
 }
