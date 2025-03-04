@@ -1,14 +1,16 @@
 :root {
     /***** font-family *****/
     --font-family-primary: "Plus Jakarta Sans", sans-serif;
-    --font-family-second:"Manrope", sans-serif;
+    --font-family-second: "Manrope", sans-serif;
     /***** color *****/
     --color-black: black;
     --color-white: white;
     --color-red: #FF0000;
     --bg-red: #FF0000;
     --sooty-black: #141414;
-        /***** font-size *****/
+    --bg-light-red: #FFEBEB;
+    --color-Vantablack: #010101;
+    /***** font-size *****/
     --fs-sm: 12px;
     --fs-base: 14px;
     --fs-md: 18px;
@@ -46,6 +48,14 @@
     color: var(--sooty-black);
 }
 
+.bg-light-red {
+    background: var(--bg-light-red);
+}
+
+.color-Vantablack {
+    color: var(--color-Vantablack);
+}
+
 /***** font-size *****/
 .fs-sm {
     font-size: var(--fs-sm);
@@ -76,6 +86,6 @@
 @media (max-width:575.98px) {
     :root {
         --fs-xl: 36px;
-        --fs-lg:46px;
+        --fs-lg: 36px;
     }
 }
