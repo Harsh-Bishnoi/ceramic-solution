@@ -283,6 +283,39 @@
     padding: 24px;
 }
 
+/* Frequently Asked Questions */
+.max-w-592 {
+    max-width: 592px;
+}
+
+.faq .accordion {
+    max-width: 912px;
+    --bs-accordion-border-width: none !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.faq .accordion-item {
+    box-shadow: 0px 2px 44px 3px #5757571A;
+    border-radius: 16px !important;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    padding-bottom: 8px !important;
+}
+
+.faq .accordion-button {
+    border-radius: 16px !important;
+}
+
+.faq .accordion-body {
+    padding-top: 0 !important;
+}
+
+.faq .accordion-button::after {
+    background-image: url(../images/svg/accordion-arrow.svg) !important;
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
