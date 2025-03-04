@@ -185,6 +185,45 @@
     padding: 8.33px 38.5px 6px 8px;
 }
 
+/***** What we do *****/
+.pt-174 {
+    padding-top: 174px;
+}
+
+.pb-140 {
+    padding-bottom: 140px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-56 {
+    margin-bottom: 56px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.img-card {
+    max-width: 364px;
+    border-radius: 24px;
+    padding: 24px;
+    border: 1px solid #0000001F;
+    transition: all 200ms linear;
+}
+
+.img-card:hover {
+    box-shadow: 0px 0px 12px 3px #B6B6B640;
+    background-color: var(--color-white);
+    border-color: transparent;
+}
+
+.border-radius-12 {
+    border-radius: 12px;
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
