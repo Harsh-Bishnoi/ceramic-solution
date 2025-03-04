@@ -271,10 +271,9 @@
     padding-bottom: 140px;
 }
 
-.pb-140{
+.pb-140 {
     padding-bottom: 140px;
 }
-
 
 .max-w-592 {
     max-width: 592px;
@@ -289,10 +288,6 @@
 }
 
 /* Frequently Asked Questions */
-.max-w-592 {
-    max-width: 592px;
-}
-
 .faq .accordion {
     max-width: 912px;
     --bs-accordion-border-width: none !important;
@@ -319,6 +314,44 @@
 
 .faq .accordion-button::after {
     background-image: url(../images/svg/accordion-arrow.svg) !important;
+}
+
+/* We provide services in these areas */
+.max-w-589 {
+    max-width: 589px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.location-card {
+    max-width: 364px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 44px 3px #5757571A;
+    transition: all 300ms linear;
+}
+
+.location-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: var(--bg-red);
+    transition: all 300ms linear;
+}
+
+.location-card:hover .location-circle {
+    background-color: #F8D4D4;
+
+    path {
+        fill: var(--color-red);
+    }
+}
+
+.gap-12 {
+    gap: 12px;
 }
 
 @media (max-width:991.98px) {
