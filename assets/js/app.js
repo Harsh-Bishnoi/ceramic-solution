@@ -292,3 +292,36 @@ locationD.innerHTML = locationData.map(card => `
                 </div>
             </div>
         `).join('');
+
+
+
+
+// slider
+$('.my-slider-1').slick({
+    variableWidth: true,
+    centerMode: true,
+    centerPadding: '60px',
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnMouseEnter: true,
+    autoplaySpeed: 800,
+    responsive: [
+
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 786,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
