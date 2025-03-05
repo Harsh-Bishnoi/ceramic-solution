@@ -276,6 +276,10 @@
     box-shadow: 0px 1px 28px 1px var(--black-tie);
 }
 
+.pl-51 {
+    padding-left: 51px !important;
+}
+
 .pl-52 {
     padding-left: 52px;
 }
@@ -451,6 +455,10 @@
 
     .lh-70 {
         line-height: normal;
+    }
+
+    .pl-51 {
+        padding-left: 12px !important;
     }
 }
 
