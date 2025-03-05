@@ -10,6 +10,8 @@
     --sooty-black: #141414;
     --bg-light-red: #FFEBEB;
     --color-Vantablack: #010101;
+    --washed-black: #1B2228;
+    --color-light-grey: #81848A;
     /***** font-size *****/
     --fs-sm: 12px;
     --fs-base: 14px;
@@ -54,6 +56,14 @@
 
 .color-Vantablack {
     color: var(--color-Vantablack);
+}
+
+.washed-black {
+    color: var(--washed-black);
+}
+
+.color-light-grey {
+    color: var(--color-light-grey);
 }
 
 /***** font-size *****/
